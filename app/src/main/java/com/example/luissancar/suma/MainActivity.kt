@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val op1=findViewById(R.id.ope01) as EditText
-        val op2=findViewById(R.id.ope01) as EditText
+        val op2=findViewById(R.id.ope02) as EditText
         val boton=findViewById(R.id.button) as Button
         boton.setEnabled(false)
        boton.setOnClickListener {
