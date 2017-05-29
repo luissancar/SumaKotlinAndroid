@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val op2=findViewById(R.id.ope02) as EditText
         val textV=findViewById(R.id.resul) as TextView
         var res:Int
-        res=op1.toString().toInt()+op2.toString().toInt()
-        textV.setText(res)
+        res=op1.getText().toString().toInt()+op2.getText().toString().toInt()
+        textV.setText(res.toString())
     }
 }
