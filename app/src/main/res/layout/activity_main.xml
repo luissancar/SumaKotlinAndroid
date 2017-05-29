@@ -6,43 +6,45 @@
 
 
     <EditText
-            android:id="@+id/ope02"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-        android:layout_below="@+id/ope01"
+        android:id="@+id/ope01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="number" />
 
-        <EditText
-            android:id="@+id/ope01"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="26dp" />
-        <TextView
-            android:id="@+id/resul"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="hgfhfgh"
-            android:layout_marginLeft="29dp"
-            android:layout_marginStart="29dp"
-            android:layout_marginTop="24dp"
-            android:layout_below="@+id/ope02"/>
+    <EditText
+        android:id="@+id/ope02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ope01"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/resul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ope02"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sumar"
-        android:layout_below="@+id/resul"
-        android:layout_alignRight="@+id/resul"
-        android:layout_alignEnd="@+id/resul"
-        android:layout_marginTop="49dp" />
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp" />
 
 
 
